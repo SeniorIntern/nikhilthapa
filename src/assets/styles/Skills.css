@@ -1,0 +1,23 @@
+section {
+    display: flex;
+    flex: 1;
+    margin-top: 2.4em;
+}
+
+.skill__img {
+    display: flex;
+    flex: 0.5;
+}
+
+.skill__img > img {
+    width: 100%;
+}
+
+.skill__descriptions {
+    display: flex;
+    flex: 0.5;
+}
+
+.skill__desc > p {
+    display: inline-block;
+}

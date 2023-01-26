@@ -1,0 +1,19 @@
+.about {
+    display: flex;
+    flex: 1;
+    margin-bottom: 8em;
+}
+
+.description {
+    flex: 0.5;
+}
+
+.picture {
+    flex: 0.5;
+    max-width: 100%;
+    height: auto;
+}
+
+.picture > img {
+    width: 100%;
+}
