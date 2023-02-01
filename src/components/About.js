@@ -10,10 +10,12 @@ export default function About() {
     return (
         <div className='about'>
             <div className='description'>
-                <p>{name}</p>
+                <h1>{name}</h1>
                 <p>{desc}</p>
                 <br />
-                <button>My Resume</button>
+                <button>
+                    <a href=''>My Resume</a>
+                </button>
             </div>
             <div className='picture'>
                 <img src={guy} alt='' />
