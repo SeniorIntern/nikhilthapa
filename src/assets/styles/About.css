@@ -9,12 +9,6 @@
     padding-right: 3.2em;
 }
 
-.description > h1 {
-    font-size: 2.8rem;
-    color: var(--text-blue);
-    margin-bottom: 0.6em;
-}
-
 .description > p {
     font-size: 1.2rem;
     color: var(--text-grey);

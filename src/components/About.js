@@ -14,7 +14,7 @@ export default function About() {
                 <p>{desc}</p>
                 <br />
                 <button>
-                    <a href=''>My Resume</a>
+                    <a href='localhost:3000'>My Resume</a>
                 </button>
             </div>
             <div className='picture'>

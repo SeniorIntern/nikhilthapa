@@ -1,0 +1,25 @@
+.projects {
+    margin-top: 4em;
+}
+
+.project__listing {
+    margin-bottom: 2.6em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 18px;
+    grid-row-gap: 14px;
+}
+
+.btn {
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: white;
+    border: 1px solid #64ffda;
+    width: fit-content;
+    padding: 0.4em 1em;
+    border-radius: 0.4em;
+}

@@ -1,0 +1,28 @@
+.banner{
+    display: flex;
+    flex: 1;
+}
+
+.banner__img{
+    margin: 0;
+    flex: 0.5;
+    width: 100%;
+}
+
+.banner__img > img{
+    margin: 0;
+    width: 100%;
+}
+
+.banner__desc{
+    flex: 0.5;
+    padding-left: 1.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner__desc > p{
+    font-weight: bold;
+    color: var(--text-grey);
+}

@@ -1,9 +1,11 @@
 import React from 'react'
 import './App.css'
 import About from './components/About'
+import Banner from './components/Banner'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Skills from './components/Skills'
+import Projects from './Projects'
 
 export default function App() {
     return (
@@ -12,8 +14,15 @@ export default function App() {
                 <Header />
             </nav>
             <main>
+                <Banner />
+                <Projects />
+                {/*
+                 */}
+
+                {/* 
                 <About />
-                <Skills />
+                <Skills /> 
+                */}
             </main>
             <footer>
                 <Footer />

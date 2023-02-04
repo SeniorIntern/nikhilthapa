@@ -1,0 +1,9 @@
+.project__item {
+    background-color: var(--text-blue);
+    width: 20em;
+    padding: 1.8em;
+}
+
+.project__item>p {
+    color: var(--color-dark-blue);
+}
