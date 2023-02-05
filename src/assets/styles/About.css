@@ -1,7 +1,7 @@
 .about {
     display: flex;
     flex: 1;
-    margin-bottom: 8em;
+    margin: 4em 0;
 }
 
 .description {

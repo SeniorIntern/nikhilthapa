@@ -49,7 +49,15 @@ export default function Projects() {
                     return <ProjectItem key={id} {...project} />
                 })}
             </div>
-            <h2 className='btn'>More Projects</h2>
+            <h2 className='btn'>
+                <a
+                    href='https://github.com/nikhilDOTts'
+                    target={'_blank'}
+                    rel='noreferrer'
+                >
+                    More Projects
+                </a>
+            </h2>
         </div>
     )
 }

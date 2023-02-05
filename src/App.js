@@ -14,15 +14,15 @@ export default function App() {
                 <Header />
             </nav>
             <main>
+                {/*
                 <Banner />
                 <Projects />
-                {/*
                  */}
 
-                {/* 
                 <About />
-                <Skills /> 
-                */}
+                <Skills />
+                {/*
+                 */}
             </main>
             <footer>
                 <Footer />
